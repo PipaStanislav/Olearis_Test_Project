@@ -1,0 +1,193 @@
+
+body {
+	background: gray; 
+	box-sizing: border-box;
+}
+ul {
+	list-style-type: none;
+}
+
+
+#body {
+	width: 800px;
+	background: #fff;
+	margin: 0 auto;
+	border: 1px solid rgb(103, 58, 183);
+	position: relative;
+}
+
+#plusIcon, #minusIcon {
+	position: absolute;
+	top: 25px;
+	right: -50px;
+	font-size: 25px;
+	cursor: pointer;
+	color: #fff;
+}
+
+#tipeOfList {
+	position: absolute;
+	left: 820px;
+	top: 70px;
+}
+.text, .oneOfList, .dropDownList {
+	position: relative;
+	background: silver;
+	cursor: pointer;
+	width: 0px;
+	height: 40px;
+	transition: 3s;
+	margin-bottom: 10px;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.animatListForm {
+	width: 200px;	
+}
+.positionIconText, .positionIconOneOfList, .positionIconDropDownList {
+	position: absolute;
+	top: 12px;
+	left: 20px;
+}
+.positionText, .positionTextOneOfList, .positionTextDropDownList{
+	position: absolute;
+	top: 12px;
+	left: 50px
+}
+.positionTextDropDownList {
+	top: 3px;
+}
+
+.icon {
+	margin-right: 10px;
+}
+.iconCircle {
+	margin-bottom: 8px;
+}
+.text .oneOfList .dropDownList {
+}
+
+#header {
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+}
+
+.headerList {
+	text-decoration: none;
+	color: inherit;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+#sectionForms {
+	border: 0.5px solid rgb(103, 58, 183);
+}
+#newForm, #newDescription {
+	margin: 20px 50px 20px 50px;
+}
+#newFormInput {
+	width: 100%;
+	resize: none;
+	height: 44px;
+	border: none;
+	border-bottom: 1px solid gray;
+	font-size: 30px;
+	line-height: 135%;
+	overflow-y: hidden;
+}
+#newDescriptionInput {
+	width: 100%;
+	resize: none;
+	height: 31px;
+	border: none;
+	border-bottom: 1px solid gray;
+	font-size: 20px;
+	line-height: 135%;
+	overflow-y: hidden;
+}
+#newFormInput:focus, #newDescriptionInput:focus {
+	outline: none;
+	border-bottom: 1px solid rgb(103, 58, 183);
+}
+.questions {
+	width: 100%;
+	height: 100px;
+	border: 0.5px solid rgb(103, 58, 183);
+}
+
+.divQuestionFormOneOfListn, .divQuestionFormDropDownList {
+	width: 100%;
+	border: 0.5px solid rgb(103, 58, 183);
+}
+.divInputQuestionFormOneOfList, .divInputQuestionFormDropDownList {
+	margin: 20px 50px;
+}
+.textareaInputQuestionFormOneOfList, .textareaInputQuestionFormDropDownList {
+	width: 100%;
+	resize: none;
+	height: 36px;
+	border: none;
+	border-bottom: 1px solid gray;
+	font-size:24px;
+	line-height: 135%;
+	overflow-y: hidden;
+	outline: none;
+}
+.textareaInputQuestionFormOneOfList:focus, .textareaInputQuestionFormDropDownList:focus {
+	border-bottom: 1px solid rgb(103, 58, 183);
+} 
+.divInputAnswerFormOneOfList, .divInputAnswerFormDropDownList {
+	margin: 20px 50px;
+	color: #757575;
+}
+.divAnswerFormOneOfList, .divAnswerFormDropDownList {
+	margin-bottom: 10px;
+}
+.inputIconCircleFormOneOfList {
+	display: inline-block;
+	margin-right: 5px;
+}
+.inputNumberFormDropDownList {
+	display: inline-block;
+	margin-right: 5px;
+	font-size: 20px;
+}
+.inputAnswerFormOneOfList, .inputAnswerFormDropDownList {
+	width: 90%;
+	height: 36px;
+	border: none;
+	border-bottom: 1px solid gray;
+	font-size: 20px;
+	line-height: 135%;
+	outline: none;
+	display: inline-block;
+}
+.inputAnswerFormOneOfList:focus, .inputAnswerFormDropDownList:focus {
+	border-bottom: 1px solid rgb(103, 58, 183);	
+}
+.inputIconDeleteFormOneOfList, .inputIconDeleteFormDropDownList {
+	display: inline-block;
+	cursor: pointer;
+	margin-left: 15px;
+}
+
+.iconsFormOneOfList, .iconsFormDropDownList {
+	margin: 20px 100px 20px 50px;
+	padding-left: 500px;
+}
+.iconTrashFormOneOfList, .iconCloneFormOneOfList, .iconPlusFormOneOfList, .iconTrashFormDropDownList, .iconCloneFormDropDownList, .iconPlusFormDropDownList{
+	margin: 0 15px;
+	cursor: pointer;
+	display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
